@@ -6,6 +6,8 @@ import javax.swing.JOptionPane;
 
 public class Remarkable {
 public static void main(String[] args) {
+	JOptionPane.showMessageDialog(null, "Oliver is funny, makes me laugh, and a great friend");
+	JOptionPane.showMessageDialog(null, "Albert is also a great friend and stuff");
 
 		// 1. Save something remarkable about each person in a variable.
 

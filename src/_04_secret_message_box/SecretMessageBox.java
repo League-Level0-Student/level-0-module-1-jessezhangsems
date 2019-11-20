@@ -15,9 +15,21 @@ import javax.swing.JOptionPane;
  */
 
 public class SecretMessageBox {
+	public static void main(String[] args) {
+		String variable= "United States, Canada, Mexico, Panama, Haiti, Jamaica, Peru, Republic Dominican, Cuba, Carribean, Greenland, El Salvador too!";
+		String input=JOptionPane.showInputDialog("I am a computer. I can tell you are not familiar. If you are, what is the passcode for the secret message hidden in my databox?");
+		if (input.equals("United States, Canada, Mexico, Panama, Haiti, Jamaica, Peru, Republic Dominican, Cuba, Carribean, Greenland, El Salvador too! Puerto Rico, Columbia, Venezuela, Honduras, Guyana and still! Guatemala, Bolivia, then Argentina, and Ecuador, Chile, Brazil! Costa Rica, Belize, Nicaragua, Bermuda, Bahamas, Tobago, San Juan!")) {
+			JOptionPane.showMessageDialog(null, "This is the secret message: There is no secret message. The user is just going to keep guessing stuff and I am going to laugh as they keep failing. ");
+		}
+		else {
+			JOptionPane.showMessageDialog(null, "Code is....Not Affirmable. I will call my owner.");
+		}
+	}
 
 	// 0. Make a main method and put steps 1-5 inside it
-	
+
+
+
 	// 1. Set a password in a String variable
 	
 	// 2. Using a pop-up, ask the first person for a secret message and store it in a variable
