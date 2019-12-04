@@ -2,11 +2,21 @@ package _07_riddler;
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
-
+import javax.swing.JOptionPane;
 
 public class TheRiddler {
 
 	public static void main(String[] args) {
+		String input =JOptionPane.showInputDialog(null, "What would happen to a WHITE stone if you threw it in the Dead Sea?");
+		if (input.equals("It would get wet.")) {
+			JOptionPane.showMessageDialog(null, "Congradulations! You got it right!");
+			
+			
+		}
+		else {
+			JOptionPane.showMessageDialog(null, "Nope! The answer is that it would get wet! And perhaps salty!");
+		}
+	
 
 		// 1. Make a variable to hold the score
 
