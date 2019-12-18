@@ -10,12 +10,18 @@ public class TheRiddler {
 		String input =JOptionPane.showInputDialog(null, "What would happen to a WHITE stone if you threw it in the Dead Sea?");
 		if (input.equals("It would get wet.")) {
 			JOptionPane.showMessageDialog(null, "Congradulations! You got it right!");
+		
 			
 			
 		}
-		else {
-			JOptionPane.showMessageDialog(null, "Nope! The answer is that it would get wet! And perhaps salty!");
+		else if(input.equals("It would get wet!")) {
+			JOptionPane.showMessageDialog(null, "Congradulations! You got it right!");
 		}
+		else {JOptionPane.showMessageDialog(null, "Nope! The answer is that it would get wet! And perhaps salty!");
+		
+		}
+			
+		
 	
 
 		// 1. Make a variable to hold the score
@@ -29,7 +35,31 @@ public class TheRiddler {
 		// 6. Add some more riddles
 
 		// 2. Make a pop up to show the score.
+			
+			
+				
 		
-	}
+
+
+
+
+	
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
